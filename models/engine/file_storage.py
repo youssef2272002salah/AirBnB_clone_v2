@@ -9,8 +9,8 @@ class FileStorage:
     __objects = {}
 
     def all(self, cls=None):
-        dict = {}
         """Returns a dictionary of models currently in storage"""
+        dict = {}
         if cls is not None:
             for k, v in FileStorage.__objects.items():
                 if isinstance(v, cls):
