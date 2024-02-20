@@ -1,0 +1,11 @@
+All States: 0
+New State: [State] (5c834a1b-cd21-49fe-bd43-381138656f19) {'id': '5c834a1b-cd21-49fe-bd43-381138656f19', 'created_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280310), 'updated_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280332), 'name': 'California'}
+All States: 1
+[State] (5c834a1b-cd21-49fe-bd43-381138656f19) {'id': '5c834a1b-cd21-49fe-bd43-381138656f19', 'created_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280310), 'updated_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280332), 'name': 'California'}
+Another State: [State] (365cabc4-4f85-4027-9513-c2b3ad6bd5cb) {'id': '365cabc4-4f85-4027-9513-c2b3ad6bd5cb', 'created_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280854), 'updated_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280858), 'name': 'Nevada'}
+All States: 2
+[State] (5c834a1b-cd21-49fe-bd43-381138656f19) {'id': '5c834a1b-cd21-49fe-bd43-381138656f19', 'created_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280310), 'updated_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280332), 'name': 'California'}
+[State] (365cabc4-4f85-4027-9513-c2b3ad6bd5cb) {'id': '365cabc4-4f85-4027-9513-c2b3ad6bd5cb', 'created_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280854), 'updated_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280858), 'name': 'Nevada'}
+All States: 2
+[State] (5c834a1b-cd21-49fe-bd43-381138656f19) {'id': '5c834a1b-cd21-49fe-bd43-381138656f19', 'created_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280310), 'updated_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280332), 'name': 'California'}
+[State] (365cabc4-4f85-4027-9513-c2b3ad6bd5cb) {'id': '365cabc4-4f85-4027-9513-c2b3ad6bd5cb', 'created_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280854), 'updated_at': datetime.datetime(2024, 2, 20, 16, 52, 50, 280858), 'name': 'Nevada'}
