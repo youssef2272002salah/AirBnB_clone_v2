@@ -47,7 +47,7 @@ for state_key in all_states.keys():
     print(all_states[state_key])        
 
 # Delete the new State
-fs.delete(new_state)
+fs.delete()
 
 # All States
 all_states = fs.all(State)
