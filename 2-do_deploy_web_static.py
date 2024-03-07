@@ -9,7 +9,7 @@ env.hosts = ['100.25.142.157', '54.160.93.135']
 
 
 def do_deploy(archive_path):
-    '''pycodestyle'''
+    '''fuck pycode style '''
     if exists(archive_path) is False:
         return False
 
