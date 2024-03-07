@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 def do_pack():
-    """fabric script to mke a make a dir that contain a .tgz archive of the web_static"""
+    """fuck pycode style """
     local("sudo mkdir -p versions")
 
     date = datetime.now().strftime("%Y%m%d%H%M%S")
