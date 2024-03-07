@@ -18,13 +18,9 @@ def do_deploy(archive_path):
 # print(archive_file)    web_static_20240307150135.tgz
 # print(re_archive)/data/web_static/releases/web_static_20240307150135
     try:
-        # upload
         put(archive_path, '/tmp/')
-        # make dir
         run('sudo mkdir -p {}'.format(re_archive))
-        # extract
         run('sudo tar -xzf /tmp/{} -C {}'.format(archive_file, re_archive))
-        # remove the uploaded file
         run('sudo rm /tmp/{}'.format(archive_file))
 
         run('sudo mv {}/web_static/* {}'.format(re_archive, re_archive))
