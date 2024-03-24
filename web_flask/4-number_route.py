@@ -39,7 +39,7 @@ def python_text(text="is_cool"):
 def python_number(n):
     """ Returns some text. """
     if n.isdigit():
-        n = int(n)
+        n = str(n)
         return f'{n} is a number'
 
 
