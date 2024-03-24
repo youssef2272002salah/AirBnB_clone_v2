@@ -35,12 +35,11 @@ def python_text(text="is_cool"):
     return f'Python {text}'
 
 
-@app.route('/number/<n>', strict_slashes=False)
-def python_number(n):
-    """ Returns some text. """
-    if n.isdigit():
-        n = str(n)
-        return f'{n} is a number'
+@app.route('/number/<int:n>')
+def number_text(n):
+    """ replace with int only if given int. """
+    n = str(n)
+    return '{} is a number'.format(n)
 
 
 if __name__ == '__main__':
