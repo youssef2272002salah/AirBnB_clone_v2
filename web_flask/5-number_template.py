@@ -1,4 +1,4 @@
-#!/usr/bin/pythin3
+#!/usr/bin/python3
 '''display “C ” followed by the value of the text 
 variable (replace underscore _ symbols with a space )'''
 
