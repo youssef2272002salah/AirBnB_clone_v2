@@ -28,20 +28,19 @@ def python_text(text= "is_cool"):
     text= text.replace('_',' ')
     return f'Python {text}'
 
-@app.route('/number/<n>', strict_slashes=False)
+@app.route('/number/<int:n>', strict_slashes=False)
 def python_number(n):
-    if n.isdigit():
-        return f'{n} is a number'
+    n =str(n)
+    return f'{n} is a number'
     
-@app.route('/number_template/<n>', strict_slashes=False)
+@app.route('/number_template/<int:n>', strict_slashes=False)
 def python_number_template(n):
-    if n.isdigit():
-        message = f'Number: {n}'
-        return render_template('5-number.html', message= message)
+    n =str(n)
+    message = f'Number: {n}'
+    return render_template('5-number.html', message= message)
 
-@app.route('/number_odd_or_even/<n>')
+@app.route('/number_odd_or_even/<int:n>')
 def python_number_odd_even(n):
-    if n.isdigit():
         n = int(n)  # Convert n to an integer cause it is string
         if n % 2 == 0:
             message = f'Number: {n} is even'
