@@ -1,6 +1,5 @@
 #!/usr/bin/pythin3
-'''display “C ” followed by the value of the text
-variable (replace underscore _ symbols with a space )'''
+'''display “C ” followed by the value of the text'''
 
 from flask import Flask
 
